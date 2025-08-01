@@ -1,56 +1,53 @@
-# 💰 MERN Expense Tracker App
+# MERN Expense Tracker App
 
-A full-stack expense tracking application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This app enables **Parents** to assign budgets and monitor their **Children's** spending habits, with role-based access and visual insights.
+This is a complete expense tracking application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The app allows **Parents** to set budgets and track their **Children's** spending habits. It features role-based access and visual insights.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication & Roles
-- JWT-based login/signup
+### Authentication & Roles
+- JWT-based login and signup
 - Role selection: Parent or Child
 - Protected routes based on role
 
-### 👨‍👧 Parent Capabilities
+### Parent Capabilities
 - Create and manage child accounts
-- Assign monthly budgets per category
+- Assign monthly budgets for each category
 - View child transaction history and budget usage
 - Receive alerts when budgets are exceeded
 
-### 🧒 Child Capabilities
-- Add, edit, delete personal transactions
+### Child Capabilities
+- Add, edit, and delete personal transactions
 - View assigned budgets and category limits
-- Receive alerts when nearing/exceeding limits
+- Get alerts when nearing or exceeding limits
 
-### 💸 Transaction Management
+### Transaction Management
 - Fields: Title, Amount, Category, Date, Type (Income/Expense)
 - CRUD operations
 
-### 📊 Budget Planning
-- Category-based budgets
+### Budget Planning
+- Budgets based on categories
 - Usage tracking with color indicators:
-  - 🟢 Green: < 70%
-  - 🟡 Yellow: 70–90%
-  - 🔴 Red: > 90%
+  - Green: less than 70%
+  - Yellow: 70 to 90%
+  - Red: more than 90%
 
-### 📈 Dashboard
+### Dashboard
 - Role-based views:
   - Parents: Overview of all children
   - Children: Personal balance and usage
-- Visual charts (Pie/Bar)
+- Visual charts (Pie and Bar)
 - Recent transactions table
 
-### 🧩 Extra Features
+### Extra Features
 - Export transactions to CSV (Bonus)
 - Responsive design
 - Context API for global state
 
 ---
 
-
----
-
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -71,4 +68,5 @@ cd ../frontend
 npm install
 npm start
 
-## 🏗️ Directory Structure
+## Directory Structure
+```
